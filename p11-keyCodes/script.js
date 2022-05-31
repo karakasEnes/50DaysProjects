@@ -6,12 +6,12 @@ window.addEventListener('keydown', (e) => {
     </div>
 
     <div class="key">
-    ${e.keyCode === ' ' ? 'Space' : e.key}
+    ${e.keyCode === ' ' ? 'Space' : e.keyCode}
       <small>event.keyCode</small>
     </div>
 
     <div class="key">
-    ${e.code === ' ' ? 'Space' : e.key}
+    ${e.code === ' ' ? 'Space' : e.code}
       <small>event.code</small>
     </div>
   
